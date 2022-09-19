@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main>article {
+    flex: 1;
+}
+
+#main>aside {
+    flex: 0 0 20vw;
+    background: #77c6f3;
+}
+
+header,
+footer {
+    background: #30a9f0;
+    height: 20vh;
+    color: rgb(1, 22, 41);
+
+}
+
+footer,
+article,
+aside {
+    padding: 1em;
+}
+
+header {
+    padding: 3em;
+}
+
+aside {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.anunciofatec {
+    height: 330px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+.Noticia1 {
+    background: #39b7f1;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.Noticia1 p {
+    font-style: italic;
+}
+
+.Noticia1 h3 {
+    text-align: center;
+}
+
+.Noticia2 {
+    background: #39b7f1;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.Noticia2 ol {
+    font-style: italic;
+}
+
+.Noticia2 h3 {
+    text-align: center;
+}
+
+.Noticia3 {
+    background: #39b7f1;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.Noticia3 p {
+    font-style: italic;
+}
+
+.Noticia3 h3,
+h1 {
+    text-align: center;
+}
+
+.divanuncio {
+    text-align: center;
+}
+
+.Noticia1 a,
+.Noticia2 a,
+.Noticia3 a {
+    color: rgb(255, 255, 255);
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+}
+
+.img3 {
+    height: 100%;
+    width: 100%;
+}
