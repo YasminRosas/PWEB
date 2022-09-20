@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(15, 15, 15);
+}
+.notaUm {
+    padding: 20px;
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.notaDois {
+    padding: 20px;
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.notaTres {
+    padding: 20px;
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.notaQuatro {
+    padding: 20px;
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+img {
+        width: 50%;
+        height: 50%;
+        margin: 10px;
+}
+
+@media screen and (max-width: 1920px) {
+    .notaUm {
+        background-color: rgb(39, 62, 104);
+    }
+
+    .notaDois {
+        background-color: rgb(60, 95, 160);
+    }
+
+    .notaTres {
+        background-color: rgb(71, 117, 202);
+    }
+
+    .notaQuatro {
+        background-color: rgb(83, 142, 253);
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .notaUm {
+        background-color: rgb(236, 0, 217);
+    }
+
+    .notaDois {
+        background-color: rgb(230, 87, 218);
+    }
+
+    .notaTres {
+        background-color: rgb(240, 126, 230);
+    }
+
+    .notaQuatro {
+        background-color: rgb(241, 161, 235);
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .notaUm {
+        background-color: rgb(231, 142, 8);
+    }
+
+    .notaDois {
+        background-color: rgb(228, 153, 40);
+    }
+
+    .notaTres {
+        background-color: rgb(218, 161, 77);
+    }
+
+    .notaQuatro {
+        background-color: rgb(218, 174, 109);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .notaUm {
+        background-color: rgb(109, 62, 148);
+    }
+
+    .notaDois {
+        background-color: rgb(131, 65, 185);
+    }
+
+    .notaTres {
+        background-color: rgb(152, 77, 214);
+    }
+
+    .notaQuatro {
+        background-color: rgb(181, 114, 236);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .notaUm {
+        background-color: rgb(241, 77, 104);
+    }
+
+    .notaDois {
+        background-color: rgb(248, 101, 126);
+    }
+
+    .notaTres {
+        background-color: rgb(250, 139, 157);
+    }
+
+    .notaQuatro {
+        background-color: rgb(248, 167, 181);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .notaUm {
+        background-color: rgb(235, 201, 10);
+    }
+
+    .notaDois {
+        background-color: rgb(243, 214, 46);
+    }
+
+    .notaTres {
+        background-color: rgb(247, 220, 71);
+    }
+
+    .notaQuatro {
+        background-color: rgb(248, 225, 95);
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .notaUm {
+        display: none;
+    }
+
+    .notaDois {
+        display: none;
+    }
+
+    .notaTres {
+        display: none;
+    }
+
+    .notaQuatro {
+        display: none;
+    }
+}
