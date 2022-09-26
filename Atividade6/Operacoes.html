@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Receber dois números</title>
+</head>
+
+<body>
+    <script>
+        var numero1, numero2, soma, sub, mult, div, resto;
+
+        numero1 = prompt("Digite o primeiro número: ");
+        numero1 = Number.parseInt(numero1);
+        numero2 = prompt("Digite o segundo número: ");
+        numero2 = Number.parseInt(numero2);
+
+        soma = numero1 + numero2;
+        alert("A soma é: " + soma);
+
+        sub = numero1 - numero2;
+        alert("A subtração é: " + sub);
+
+        mult = numero1 * numero2;
+        alert("A a multiplicação é: " + mult);
+
+        div = numero1 / numero2;
+        alert("A divisão é: " + div.toFixed(2));
+
+        resto = numero1 % numero2;
+        alert("O resto da divisão é: " + resto);
+            // console.log(soma);
+
+    </script>
+</body>
+
+</html>
